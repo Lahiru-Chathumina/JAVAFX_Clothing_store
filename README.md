@@ -1,6 +1,6 @@
 # JAVAFX_Clothing_store
 
-ShopEaseFX is a JavaFX-based shopping management system designed to provide users with an intuitive and efficient shopping experience. It includes features such as user registration, login, product browsing, and shopping cart functionality.
+JAVAFX_Clothing_store is a JavaFX-based shopping management system designed to provide users with an intuitive and efficient shopping experience. It includes features such as user registration, login, product browsing, and shopping cart functionality.
 
 ## Features
 - **User Login & Registration:** Secure login and registration system for customers.
