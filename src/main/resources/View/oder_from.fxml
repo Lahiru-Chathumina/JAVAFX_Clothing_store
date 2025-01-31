@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="471.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.order.OrderFromController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#07223b" height="58.0" stroke="BLACK" strokeType="INSIDE" width="760.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#18191b" height="410.0" layoutY="59.0" stroke="#f2e6e6" strokeType="INSIDE" width="760.0" />
+      <Text fill="#fff3f3" layoutX="254.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Oder From">
+         <font>
+            <Font name="BalboaPlus-Fill" size="36.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="COMCustomerID" layoutX="14.0" layoutY="84.0" prefWidth="150.0" promptText="CustomerID" />
+      <ComboBox fx:id="ComItemCode" layoutX="14.0" layoutY="137.0" prefWidth="150.0" promptText="ItemCode" />
+      <Text layoutX="243.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <TextField fx:id="textCustomerName" layoutX="199.0" layoutY="79.0" promptText="Customer Name" />
+      <TextField fx:id="textCustomerAddress" layoutX="385.0" layoutY="79.0" promptText="Customer Address" />
+      <TextField fx:id="textDescription" layoutX="190.0" layoutY="138.0" promptText="Description" />
+      <TextField fx:id="textStock" layoutX="367.0" layoutY="128.0" prefHeight="38.0" prefWidth="126.0" promptText="Stock" />
+      <TextField fx:id="textUnitPrice" layoutX="638.0" layoutY="131.0" prefHeight="38.0" prefWidth="110.0" promptText="Unite Price" />
+      <Button layoutX="638.0" layoutY="187.0" mnemonicParsing="false" onAction="#btnAddCard" text="Add To Card" />
+      <TableView fx:id="Teable" layoutX="26.0" layoutY="236.0" prefHeight="179.0" prefWidth="718.0">
+        <columns>
+          <TableColumn fx:id="colitemCode" prefWidth="107.20001220703125" text="Item Code" />
+          <TableColumn fx:id="colDescription" prefWidth="102.39996337890625" text="Discription" />
+            <TableColumn fx:id="ColQTY" prefWidth="115.199951171875" text="QTY ON Hand" />
+            <TableColumn fx:id="ColUnitPrice" prefWidth="156.79998779296875" text="Unit Price" />
+            <TableColumn fx:id="ColTotel" prefWidth="125.5999755859375" text="Total" />
+        </columns>
+      </TableView>
+      <TextField fx:id="textQTY" layoutX="517.0" layoutY="128.0" prefHeight="38.0" prefWidth="95.0" promptText="QTY" />
+      <Button layoutX="559.0" layoutY="426.0" mnemonicParsing="false" onAction="#btnplaceOrder" text="Place Oder" />
+      <Text fill="#fff6f6" layoutX="29.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DATE : - yyyy-MM-dd" />
+      <Text fill="#fff6f6" layoutX="29.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time :- 00.00.00" />
+      <Text fill="#fff6f6" layoutX="43.0" layoutY="445.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Net  Total :-0.00" />
+   </children>
+</AnchorPane>

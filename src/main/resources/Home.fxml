@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="540.0" prefWidth="842.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Model.Home">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e293b" height="560.0" stroke="#00000006" strokeType="INSIDE" width="217.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8f1f2" height="567.0" layoutX="217.0" stroke="#00000006" strokeType="INSIDE" width="624.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafdff" height="112.0" layoutX="241.0" layoutY="181.0" stroke="#00000006" strokeType="INSIDE" width="521.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafdff" height="118.0" layoutX="241.0" layoutY="306.0" stroke="#00000005" strokeType="INSIDE" width="521.0" />
+      <Button layoutX="32.0" layoutY="157.0" mnemonicParsing="false" onAction="#BtnHome" prefHeight="33.0" prefWidth="135.0" style="-fx-background-color: #0EA5E9;" text="Home" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="32.0" layoutY="250.0" mnemonicParsing="false" onAction="#BtnLog" prefHeight="33.0" prefWidth="135.0" style="-fx-background-color: #0EA5E9;" text="Loging" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="32.0" layoutY="345.0" mnemonicParsing="false" onAction="#BtnReqister" prefHeight="33.0" prefWidth="135.0" style="-fx-background-color: #0EA5E9;" text="Reqister" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Text fill="#2d2d2d" layoutX="226.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Our Application!" textAlignment="CENTER" wrappingWidth="588.4606170654297">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Text>
+      <Text fill="#2d2d2d" layoutX="252.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For New Users:">
+         <font>
+            <Font name="Cambria Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#261616" layoutX="252.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please create an account by registering with your details.">
+         <font>
+            <Font name="Cambria" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#261616" layoutX="252.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fill in the registration form and click on the &quot;Sign Up&quot; button to get started ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#2d2d2d" layoutX="252.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Already a Member?">
+         <font>
+            <Font name="Cambria Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#261616" layoutX="252.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If you already have an account, log in using your credentials below">
+         <font>
+            <Font name="Cambria" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#261616" layoutX="252.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your username and password, then click on the &quot;Login&quot; button ">
+         <font>
+            <Font name="Cambria" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#261616" layoutX="252.0" layoutY="410.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to access your account.">
+         <font>
+            <Font name="Cambria" size="15.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#13e7a0" height="34.0" layoutY="526.0" stroke="#00000009" strokeType="INSIDE" width="842.0" />
+      <ImageView fitHeight="156.0" fitWidth="147.0" layoutX="26.0">
+         <image>
+            <Image url="@Img/image.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="58.0" layoutY="550.0" strokeType="OUTSIDE" strokeWidth="0.0" text="075 694 6586">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="346.0" layoutY="550.0" strokeType="OUTSIDE" strokeWidth="0.0" text="www.lahirushoping.com">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="25.0" fitWidth="30.0" layoutX="309.0" layoutY="532.0">
+         <image>
+            <Image url="@Img/internet.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="46.0" layoutX="593.0" layoutY="533.0">
+         <image>
+            <Image url="@Img/map.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="30.0" layoutX="17.0" layoutY="533.0">
+         <image>
+            <Image url="@Img/whatsapp.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="647.0" layoutY="550.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Colombo.Sri Lanka">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fill="#fcf5f5" layoutX="37.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Free Shiping Island Wide">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fill="#fcf5f5" layoutX="23.0" layoutY="484.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mon-Friday 8.30 am - 5.00pm">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="82.0" fitWidth="609.0" layoutX="224.0" layoutY="441.0">
+         <image>
+            <Image url="@Img/Moose-Oversized-leoperds-Website-banner-2048x658.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="ancerpan" layoutX="217.0" prefHeight="526.0" prefWidth="624.0" />
+   </children>
+</AnchorPane>
