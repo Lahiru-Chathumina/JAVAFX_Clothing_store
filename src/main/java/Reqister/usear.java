@@ -12,7 +12,7 @@ import lombok.ToString;
 @AllArgsConstructor
 public class usear {
     private String name;
-    private String address;
     private String Email;
+    private String address;
     private String password;
 }

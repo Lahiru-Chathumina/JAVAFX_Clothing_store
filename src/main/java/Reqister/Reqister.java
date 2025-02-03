@@ -31,9 +31,9 @@ public class Reqister {
         try {
             Connection connection = DBConnection.getInstance().getConnection();
             Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery("Select * from users where email='"+textEmail.getText()+"'");
             if (textPassword.getText().equals(textPassword02.getText())){
-                          if (!resultSet.next()){
+                ResultSet resultSet = statement.executeQuery("Select * from users where email='"+textEmail.getText()+"'");
+                if (!resultSet.next()){
                               usear usear = new usear(
                                       textName.getText(),
                                       textEmail.getText(),
@@ -53,8 +53,6 @@ public class Reqister {
                 new Alert(Alert.AlertType.ERROR,"Enter Same Password").show();
                 System.out.println("notpass");
             }
-
-            System.out.println(resultSet.next());
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
