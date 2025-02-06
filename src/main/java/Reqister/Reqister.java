@@ -48,7 +48,6 @@ public class Reqister {
                           } else {
                               new Alert(Alert.AlertType.ERROR,"Email Alrady Have Place Select your Loging").show();
                           }
-
             }else {
                 new Alert(Alert.AlertType.ERROR,"Enter Same Password").show();
                 System.out.println("notpass");
@@ -56,13 +55,15 @@ public class Reqister {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-
-
     }
 
     @FXML
     void Btnclear(ActionEvent event) {
-
+        txetAddress.clear();
+        textEmail.clear();
+        textName.clear();
+        textPassword.clear();
+        textPassword02.clear();
     }
 
 }

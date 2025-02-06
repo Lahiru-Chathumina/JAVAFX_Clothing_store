@@ -14,17 +14,12 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8f1f2" height="567.0" layoutX="217.0" stroke="#00000006" strokeType="INSIDE" width="624.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafdff" height="112.0" layoutX="241.0" layoutY="181.0" stroke="#00000006" strokeType="INSIDE" width="521.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafdff" height="118.0" layoutX="241.0" layoutY="306.0" stroke="#00000005" strokeType="INSIDE" width="521.0" />
-      <Button layoutX="32.0" layoutY="157.0" mnemonicParsing="false" onAction="#BtnHome" prefHeight="33.0" prefWidth="135.0" style="-fx-background-color: #0EA5E9;" text="Home" textFill="WHITE">
+      <Button layoutX="32.0" layoutY="214.0" mnemonicParsing="false" onAction="#BtnHome" prefHeight="33.0" prefWidth="135.0" style="-fx-background-color: #0EA5E9;" text="Home" textFill="WHITE">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Button>
-      <Button layoutX="32.0" layoutY="250.0" mnemonicParsing="false" onAction="#BtnLog" prefHeight="33.0" prefWidth="135.0" style="-fx-background-color: #0EA5E9;" text="Loging" textFill="WHITE">
-         <font>
-            <Font name="System Bold" size="12.0" />
-         </font>
-      </Button>
-      <Button layoutX="32.0" layoutY="345.0" mnemonicParsing="false" onAction="#BtnReqister" prefHeight="33.0" prefWidth="135.0" style="-fx-background-color: #0EA5E9;" text="Reqister" textFill="WHITE">
+      <Button layoutX="32.0" layoutY="290.0" mnemonicParsing="false" onAction="#BtnLog" prefHeight="33.0" prefWidth="135.0" style="-fx-background-color: #0EA5E9;" text="Loging" textFill="WHITE">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
@@ -105,12 +100,12 @@
             <Font name="System Bold" size="13.0" />
          </font>
       </Text>
-      <Text fill="#fcf5f5" layoutX="37.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Free Shiping Island Wide">
+      <Text fill="#fcf5f5" layoutX="33.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Free Shiping Island Wide">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </Text>
-      <Text fill="#fcf5f5" layoutX="23.0" layoutY="484.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mon-Friday 8.30 am - 5.00pm">
+      <Text fill="#fcf5f5" layoutX="22.0" layoutY="508.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mon-Friday 8.30 am - 5.00pm">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
@@ -121,5 +116,10 @@
          </image>
       </ImageView>
       <AnchorPane fx:id="ancerpan" layoutX="217.0" prefHeight="526.0" prefWidth="624.0" />
+      <Button layoutX="31.0" layoutY="379.0" mnemonicParsing="false" onAction="#BtnAdmin" prefHeight="33.0" prefWidth="135.0" style="-fx-background-color: #0EA5E9;" text="Admin" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

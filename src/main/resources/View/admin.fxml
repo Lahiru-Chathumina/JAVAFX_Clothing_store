@@ -1,14 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
-
+<AnchorPane prefHeight="564.0" prefWidth="674.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AdminControler">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="564.0" onDragDetected="#BtndLoging" stroke="#0000000d" strokeType="INSIDE" width="678.0" />
+      <ImageView fitHeight="566.0" fitWidth="678.0" opacity="0.3" pickOnBounds="true">
+         <image>
+            <Image url="@../Img/4.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#193e61" height="94.0" layoutY="-8.0" stroke="#0000000d" strokeType="INSIDE" width="678.0" />
+      <Text fill="#f7f7f7" layoutX="214.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin Loging">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Text>
+      <Text layoutX="172.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <PasswordField fx:id="textPassword" layoutX="192.0" layoutY="269.0" prefHeight="26.0" prefWidth="243.0" promptText="Password" />
+      <TextField fx:id="textEmail" layoutX="192.0" layoutY="231.0" prefHeight="26.0" prefWidth="243.0" promptText="Email" />
+      <Hyperlink layoutX="192.0" layoutY="310.0" onAction="#hypFrogetPassword" text="Froget Password">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Button layoutX="368.0" layoutY="309.0" mnemonicParsing="false" onAction="#BtnLoging" prefHeight="26.0" prefWidth="66.0" style="-fx-background-color: #193e61;" text="Loging" textFill="#f4eeee">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0f487e" height="39.0" layoutY="527.0" stroke="#00000005" strokeType="INSIDE" width="678.0" />
+   </children>
 </AnchorPane>

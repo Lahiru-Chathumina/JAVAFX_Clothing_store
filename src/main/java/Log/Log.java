@@ -1,5 +1,4 @@
 package Log;
-
 import DBConnection.DBConnection;
 import Reqister.usear;
 import javafx.collections.FXCollections;
@@ -11,7 +10,6 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -30,6 +28,7 @@ public class Log {
         String SQL ="Select * from users where email='" +txtusearname.getText()+"'";
         Connection connection = DBConnection.getInstance().getConnection();
         ResultSet resultSet = connection.createStatement().executeQuery(SQL);
+
         if (resultSet.next()) {
             usear usear = new usear(
                     resultSet.getString(1),

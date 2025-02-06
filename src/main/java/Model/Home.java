@@ -29,7 +29,6 @@ public class Home {
         Parent load = FXMLLoader.load(resource);
         ancerpan.getChildren().clear();
         ancerpan.getChildren().add(load);
-
     }
 
     @FXML
@@ -42,4 +41,11 @@ public class Home {
 
     }
 
+    public void BtnAdmin(ActionEvent actionEvent) throws IOException {
+        URL resource = this.getClass().getResource("/View/admin.fxml");
+        assert resource !=null;
+        Parent load = FXMLLoader.load(resource);
+        ancerpan.getChildren().clear();
+        ancerpan.getChildren().add(load);
+    }
 }
